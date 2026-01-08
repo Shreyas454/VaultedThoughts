@@ -1,0 +1,13 @@
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://shreyasnagarkar454:GVbfc5ESFShUpVVy@cluster0.k228s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+  application:
+    name: journalApp
+
+server:
+  port: 8080
