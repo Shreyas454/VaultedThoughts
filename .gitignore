@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Application Config Files (contains sensitive credentials) ###
+application*.properties
+application*.yml
+application*.yaml
+
+### Log Files ###
+*.log
